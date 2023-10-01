@@ -1,0 +1,25 @@
+.Repo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box {
+    outline: none;
+    width: fit-content;
+    border: 1px solid rgb(4, 153, 240);
+    font-size: 12px;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.button {
+    background-color: rgb(4, 153, 240);
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    text-align: center;
+}
