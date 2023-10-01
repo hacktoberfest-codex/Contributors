@@ -37,8 +37,7 @@ function App() {
     setUsers(filteredUsers);
   }
 
-  if (!error || users.length !=0) {
-    console.log("Inside if");
+  if (!error || users.length !==0) {
     return (
       <div className="App">
         <a href="https://hacktoberfest.com/"><img src="https://hacktoberfest.com/_next/static/media/logo-hacktoberfest--logomark.b91c17d2.svg" alt="hacktoberfest logo" id="hacktober"></img></a>
@@ -60,7 +59,6 @@ function App() {
   }
 
   else {
-    console.log("Inside else");
     return (
       <div className="App">
         <a href="https://hacktoberfest.com/"><img src="https://hacktoberfest.com/_next/static/media/logo-hacktoberfest--logomark.b91c17d2.svg" alt="hacktoberfest logo" id="hacktober"></img></a>
