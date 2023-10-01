@@ -1,0 +1,56 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(4, 153, 240);
+  border-radius: 100px;
+}
+
+.App {
+  padding: 64px;
+  background: linear-gradient(to right, #022247, #013b46);
+  color: rgb(55, 0, 253);
+}
+
+img {
+  float: right;
+}
+
+#hacktober {
+  width: 150px;
+}
+
+h1 {
+  color: rgb(0, 229, 255);
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box {
+  outline: none;
+  width: fit-content;
+  border: 1px solid rgb(4, 153, 240);
+  font-size: 16px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: rgb(4, 153, 240);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+}
