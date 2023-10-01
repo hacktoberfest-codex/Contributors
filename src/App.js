@@ -37,11 +37,11 @@ function App() {
     setUsers(filteredUsers);
   }
 
-  if (!error || users.length !==0) {
+  if (!error || users.length !== 0) {
     return (
       <div className="App">
         <a href="https://hacktoberfest.com/"><img src="https://hacktoberfest.com/_next/static/media/logo-hacktoberfest--logomark.b91c17d2.svg" alt="hacktoberfest logo" id="hacktober"></img></a>
-        <Repo sendData={sendfill} />
+        <Repo className="Repo" sendData={sendfill} />
         <h1>Repo Name: {fill}</h1>
         <h1>Contributors Cards</h1>
         <input className="search-box" onInput={filterCards} placeholder="Search..." />
